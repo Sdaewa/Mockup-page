@@ -55,14 +55,23 @@ body {
     font-size: 40px;
     font-weight: 400;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .play-btn {
     width: 45px;
     margin: 20px;
+    margin-bottom: 100px;
+
 }
 
 #banner a {
     color: #000000;
     text-decoration: none;
+
+}
+
+.header {
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
 }
