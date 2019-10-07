@@ -32,12 +32,12 @@
 		topOnEmptyHash: true,
 
 		// Speed & Duration
-		speed: 500,
+		speed: 1000,
 		speedAsDuration: false,
 		durationMax: null,
 		durationMin: null,
 		clip: true,
-		offset: 0,
+		offset: 50,
 
 		// Easing
 		easing: 'easeInOutCubic',
@@ -249,7 +249,7 @@
 		if (clip) {
 			location = Math.min(location, getDocumentHeight() - window.innerHeight);
 		}
- 		return location;
+		return location;
 	};
 
 	/**
@@ -284,8 +284,7 @@
 		hash = hash ? hash : '';
 
 		// Set a default history
-		history.replaceState(
-			{
+		history.replaceState({
 				smoothScroll: JSON.stringify(options),
 				anchor: hash ? hash : window.pageYOffset
 			},
@@ -310,8 +309,7 @@
 		if (!history.pushState || !options.updateURL) return;
 
 		// Update URL
-		history.pushState(
-			{
+		history.pushState({
 				smoothScroll: JSON.stringify(options),
 				anchor: anchor.id
 			},
@@ -344,7 +342,7 @@
 			anchor.focus();
 			anchor.style.outline = 'none';
 		}
-		window.scrollTo(0 , endLocation);
+		window.scrollTo(0, endLocation);
 
 	};
 
@@ -463,7 +461,9 @@
 			 * Loop scrolling animation
 			 */
 			var loopAnimateScroll = function (timestamp) {
-				if (!start) { start = timestamp; }
+				if (!start) {
+					start = timestamp;
+				}
 				timeLapsed += timestamp - start;
 				percentage = speed === 0 ? 0 : (timeLapsed / speed);
 				percentage = (percentage > 1) ? 1 : percentage;
@@ -569,7 +569,9 @@
 			}
 
 			// Animate scroll to anchor link
-			smoothScroll.animateScroll(anchor, null, {updateURL: false});
+			smoothScroll.animateScroll(anchor, null, {
+				updateURL: false
+			});
 
 		};
 
