@@ -53,6 +53,10 @@ body {
     padding-top: 50px;
 }
 
+.banner-img {
+    width: 100%;
+}
+
 .promo-title {
     font-size: 40px;
     font-weight: 400;
@@ -69,13 +73,7 @@ body {
 #banner a {
     color: #ffffff;
     text-decoration: none;
-
 }
-
-/* .header {
-    border-bottom-left-radius: 50% 20%;
-    border-bottom-right-radius: 50% 20%;
-} */
 
 /* services */
 
@@ -207,6 +205,10 @@ body {
     color: #ffffff;
 }
 
+.footer-img {
+    width: 100%;
+}
+
 .footer-box {
     padding: 20px;
 }
@@ -251,5 +253,4 @@ hr {
     margin-bottom: 0;
     padding-bottom: 20px;
     text-align: center;
-
 }
