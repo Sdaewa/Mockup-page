@@ -8,6 +8,7 @@ body {
 }
 
 /* navbar */
+
 #nav-bar {
     position: sticky;
     top: 0;
@@ -20,7 +21,7 @@ body {
 }
 
 .navbar-brand img {
-    height: 50px;
+    height: 30px;
     padding-left: 20px;
 }
 
@@ -29,14 +30,14 @@ body {
 }
 
 .navbar-nav li a {
-    color: #000000 !important;
+    color: #ffffff !important;
     font-weight: 500;
     float: right;
     text-align: left;
 }
 
 .fa-bars {
-    color: #000000;
+    color: #ffffff;
     font-size: 30px !important;
 }
 
@@ -45,9 +46,10 @@ body {
 }
 
 /* banner */
+
 #banner {
     background-image: linear-gradient(to right, #a517ba, #5f1782);
-    color: #000000;
+    color: #ffffff;
     padding-top: 50px;
 }
 
@@ -65,17 +67,18 @@ body {
 }
 
 #banner a {
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
 
 }
 
-.header {
+/* .header {
     border-bottom-left-radius: 50% 20%;
     border-bottom-right-radius: 50% 20%;
-}
+} */
 
 /* services */
+
 #services {
     padding: 80px 0;
 }
@@ -151,6 +154,7 @@ body {
 }
 
 /* testimonials */
+
 #testimonials {
     margin: 100px 0;
 }
@@ -174,6 +178,7 @@ body {
 }
 
 /* social */
+
 #social-media {
     background-color: #f8f9fa;
     padding: 100px 0;
@@ -193,4 +198,58 @@ body {
 
 .social-icons a:hover img {
     transform: translateY(-10px);
+}
+
+/* footer */
+
+#footer {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: #ffffff;
+}
+
+.footer-box {
+    padding: 20px;
+}
+
+.footer-box img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.footer-box .fas {
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+.footer-box .form-control {
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+
+.footer-box .btn-primary {
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+hr {
+    background-color: #ffffff;
+}
+
+.copyright {
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+
 }
