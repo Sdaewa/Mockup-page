@@ -184,3 +184,13 @@ body {
     font-weight: 300;
     margin-bottom: 30px;
 }
+
+.social-icons img {
+    width: 60px;
+    transition: 0.5s;
+    padding: 10px;
+}
+
+.social-icons a:hover img {
+    transform: translateY(-10px);
+}
