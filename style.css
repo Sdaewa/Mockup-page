@@ -172,3 +172,15 @@ body {
     display: inline-block;
     font-size: 12px;
 }
+
+/* social */
+#social-media {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+}
+
+#social-media p {
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
